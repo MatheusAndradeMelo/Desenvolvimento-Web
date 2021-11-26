@@ -1,18 +1,16 @@
-import { useState } from 'react'
-import logo from './logo.svg'
-import './App.css'
-import BemVindo from './BemVindo'
+import "./App.css";
+import BemVindo from "./BemVindo";
+import BemVindoFn from "./BemVindoFn";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div className="App">
       <header className="App-header">
-          <p>Componente de classe</p>
+        <BemVindoFn />
       </header>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
+

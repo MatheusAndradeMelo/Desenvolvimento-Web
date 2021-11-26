@@ -1,0 +1,16 @@
+h3 {
+    color: white;
+}
+
+.Card {
+    border-color: black;
+}
+
+.App {
+    background-color:rgb(235, 235, 235);
+    
+}
+
+.App-Carousel {
+    height: 200px;
+}

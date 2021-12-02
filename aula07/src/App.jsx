@@ -4,7 +4,7 @@ import PaginaInicial from "./PaginaInicial";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Sobre from "./Sobre";
 import Formulario from "./Formulario";
-import Home from "./Home";
+import Home from "./Home";  
 
 function App() {
   return (
